@@ -1,6 +1,12 @@
 package abstraction;
 
-public abstract class Animal {
-	abstract void talk();
-	abstract void type();
+public interface Animal {
+	
+	String name();
+	String sound();
+	String type();
+	String description();
+	int cageNumber();
+	public String toString();
+	
 }
