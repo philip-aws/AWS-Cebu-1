@@ -1,4 +1,4 @@
-package abstraction;
+package mapper;
 
 public class Jarl extends Animal {
 	void talk() {

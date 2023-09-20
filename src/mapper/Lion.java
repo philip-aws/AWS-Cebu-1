@@ -1,4 +1,4 @@
-package abstraction;
+package mapper;
 
 public class Lion extends Animal{
 	void talk() {

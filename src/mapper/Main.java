@@ -1,4 +1,4 @@
-package abstraction;
+package mapper;
 
 import java.util.HashMap;
 import java.util.InputMismatchException;
