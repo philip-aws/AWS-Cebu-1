@@ -9,6 +9,7 @@ public class Main {
 		Animal fish = new Fish();
 		Animal jarl = new Jarl();
 		Animal lion = new Lion();
+		Animal zou = new Zou();
 		
 		dinosaur.talk();
 		dog.talk();
@@ -16,6 +17,7 @@ public class Main {
 		fish.talk();
 		jarl.talk();
 		lion.talk();
+		zou.talk();
 	}
 
 }
