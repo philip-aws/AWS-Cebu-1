@@ -37,8 +37,7 @@ public class Dinosaur implements Animal{
 
 	@Override
 	public String toString() {
-		return "Dinosaur [name()=" + name() + ", description()="
-				+ description() + "]";
+		return "Name: " + name() + "\n" + "Type: " + type() + "\n" + "Description: " + description() + " ";
 	}
 	
 	
