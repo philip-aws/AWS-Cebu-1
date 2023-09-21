@@ -7,7 +7,8 @@ public class Main {
 
 	@SuppressWarnings("resource")
 	public static void main(String[] args) {
-		Animal animals[] = {new Lion()};
+		
+		Animal animals[] = {new Dinosaur(), new Monkey(), new Zou(), new Jarl()};
 		HashMap<String, Integer> animalLists = new HashMap<>();
 		boolean isValid = false;
 
@@ -18,7 +19,7 @@ public class Main {
 
 		for(int i = 0; i < animals.length; i ++) {
 			animalLists.put(animals[i].name().toLowerCase(), i);
-			System.out.print(animals[i].name() + " ");
+			System.out.print(animals[i].name() + " - ");
 		}
 
 		System.out.print("\nWhat animal would you like to see?: ");
