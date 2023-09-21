@@ -35,14 +35,14 @@ public class Main {
 		while(!isValid) {
 
 			System.out.print("Would you like to hear its sound? (Y/N): ");
-			String animalSound = scanner.nextLine();
+			char animalSound = scanner.nextLine().charAt(0);
 
 			switch (animalSound) {
-			case "Y":
+			case 'Y':
 				System.out.println(animals[animalLists.get(animal)].sound());
 				isValid = true;
 				break;
-			case "N":
+			case 'N':
 				isValid = true;
 				break;
 			default:
