@@ -7,7 +7,7 @@ public class Main {
 
 	@SuppressWarnings("resource")
 	public static void main(String[] args) {
-		
+
 		Animal animals[] = {new Dinosaur(), new Monkey(), new Zou(), new Jarl(), new Lion()};
 		HashMap<String, Integer> animalLists = new HashMap<>();
 		boolean isValid = false;
@@ -33,17 +33,13 @@ public class Main {
 		}
 
 		while(!isValid) {
-			
+
 			System.out.print("Would you like to hear its sound? (Y/N): ");
 			String animalSound = scanner.nextLine();
-			
+
 			switch (animalSound) {
 			case "Y":
-				if (animalLists.containsKey(animal)) {
-					System.out.println(animals[animalLists.get(animal)].sound());
-				} else {
-					System.out.println("Animal not found.");
-				}
+				System.out.println(animals[animalLists.get(animal)].sound());
 				isValid = true;
 				break;
 			case "N":
@@ -54,14 +50,14 @@ public class Main {
 				break;
 			}
 		} 
-		
+
 		isValid = false;
-		
+
 		while(!isValid) {
-			
+
 			System.out.print("Would you like to know its location? (Y/N): ");
 			char animalCage = scanner.nextLine().charAt(0);
-			
+
 			switch(animalCage) {
 			case 'Y':
 				System.out.println(animals[animalLists.get(animal)].cageNumber());
@@ -81,4 +77,3 @@ public class Main {
 	}
 
 }
- 
