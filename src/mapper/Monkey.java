@@ -40,7 +40,5 @@ public class Monkey implements Animal{
 		// TODO Auto-generated method stub
 		return "Name: " + name() + "\nType: " + type() +"\nDescription: " + description();
 	}
-	
-	
 
 }
