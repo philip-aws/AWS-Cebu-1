@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
-		Animal animals[] = {new Lion(), new Dinosaur(), new Dog(), new Moneky(), new Fish(), new Jarl(), new Zou()};
+		Animal animals[] = {new Lion(), new Dinosaur(), new Dog(), new Monkey(), new Fish(), new Jarl(), new Zou()};
 		HashMap<String, Integer> animalLists = new HashMap<>();
 		
 		Scanner scanner = new Scanner(System.in);

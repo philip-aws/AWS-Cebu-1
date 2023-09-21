@@ -1,6 +1,6 @@
 package mapper;
 
-public class Moneky implements Animal{
+public class Monkey implements Animal{
 
 	@Override
 	public String name() {
@@ -34,5 +34,13 @@ public class Moneky implements Animal{
 		// TODO Auto-generated method stub
 		return 15;
 	}
+
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return "Name: " + name() + "\nType: " + type() +"\nDescription: " + description();
+	}
+	
+	
 
 }
