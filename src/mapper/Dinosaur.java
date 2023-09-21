@@ -7,7 +7,7 @@ public class Dinosaur implements Animal{
 	@Override
 	public String name() {
 		// TODO Auto-generated method stub
-		return "Barneychan";
+		return "Dinosaur";
 	}
 
 	@Override
