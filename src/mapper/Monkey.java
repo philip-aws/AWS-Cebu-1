@@ -35,4 +35,10 @@ public class Monkey implements Animal{
 		return 15;
 	}
 
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return "Name: " + name() + "\nType: " + type() +"\nDescription: " + description();
+	}
+
 }
