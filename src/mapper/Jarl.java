@@ -22,6 +22,6 @@ public class Jarl implements Animal {
 	}
 	
 	public String toString() {
-		return "Jarl Sneak Peek";
+		return "Name: " + name() + "\n" + "Type: " + type() + "\n" + "Description: " + description() + " ";
 	}
 }
