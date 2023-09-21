@@ -34,5 +34,15 @@ public class Dinosaur implements Animal{
 		// TODO Auto-generated method stub
 		return 119;
 	}
+
+	@Override
+	public String toString() {
+		return "Dinosaur [name()=" + name() + ", description()="
+				+ description() + "]";
+	}
+	
+	
+	
+	
 	
 }
