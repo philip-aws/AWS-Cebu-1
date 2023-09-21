@@ -1,11 +1,27 @@
 package mapper;
 
-public class Jarl extends Animal {
-	void talk() {
-		System.out.println("Jarl Sarmiento is talking.");
+public class Jarl implements Animal {
+	public String name() {
+		return "Jarl";
 	}
 	
-	void type() {
-		System.out.println("Jarl Sarmiento is typing.");
+	public String sound() {
+		return "Uun";
+	}
+	
+	public String type() {
+		return "Human";
+	}
+
+	public String description() {
+		return "A Jarl is an introverted human who would rather stay at home by himself and play video games than go out.";
+	}
+	
+	public int cageNumber() {
+		return 29;
+	}
+	
+	public String toString() {
+		return "Jarl Sneak Peek";
 	}
 }
