@@ -3,10 +3,9 @@ package mapper;
 public class Dog implements Animal{
 	@Override
 	public String name() {
-		// TODO Auto-generated method stub
 		return "Dog";
 	}
-
+	
 	@Override
 	public String sound() {
 		// TODO Auto-generated method stub
