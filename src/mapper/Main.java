@@ -8,7 +8,7 @@ public class Main {
 	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 
-		Animal animals[] = {new Dinosaur(), new Monkey(), new Zou(), new Jarl(), new Lion(), new Fish()};
+		Animal animals[] = {new Dinosaur(), new Monkey(), new Zou(), new Jarl(), new Lion(), new Fish(), new Dog()};
 		HashMap<String, Integer> animalLists = new HashMap<>();
 		boolean isValid = false;
 
